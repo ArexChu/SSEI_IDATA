@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    	android:id="@+id/ll_menu_detail_line" 	
+     	style="@style/ll_text_style">
+     	<TextView 
+         	android:id="@+id/tv_menu_detail_line"
+         	android:textSize="15.0sp"
+         	android:textColor="@android:color/black"
+         	android:paddingLeft="15.0dip"
+         	android:drawableRight="@drawable/checkbox_more_icon"
+         	android:gravity="center_vertical"
+         	android:layout_width="fill_parent"
+         	android:layout_height="fill_parent"/>
+	</LinearLayout>
+	<View
+	    android:id="@+id/v_menu_detail_line"
+    	android:background="@drawable/shape_line" 
+   		android:layout_width="fill_parent"
+		android:layout_height="1.0px" />
+</LinearLayout>

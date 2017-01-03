@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.ecust.equsys"
+        minSdkVersion 11
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':xUtils_library')
+    compile project(':slidingMenu_library')
+    compile project(':library_zhy_CircleMenu')
+    compile project(':viewPagerIndicator_library')
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.google.code.gson:gson:2.6.2'
+
+    //读写模块
+    compile files('libs/DeviceAPIver20150906.jar')
+    compile files('libs/hitownsdk.jar')
+    compile files('libs/Module_Android_DemoPower_1.6.5.1.jar')
+    compile files('libs/ModuleAPI_Android_2.3.0.0.jar')
+    compile files('libs/trinea-android-common.jar')
+}

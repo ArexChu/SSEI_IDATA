@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('Module_Android_DemoPower_1.6.5.1.jar'))

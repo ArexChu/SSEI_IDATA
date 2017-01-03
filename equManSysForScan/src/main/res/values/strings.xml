@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SSEI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mydefaultstring">我的默认值</string>
+    <string name="action_settings">Settings</string>
+	<string name="content_main">首页</string>
+	<string name="content_pipe">管道管理</string>
+	<string name="content_container">容器管理</string>
+	<string name="content_user">用户登录</string>
+	<string name="content_upload">数据上传</string>
+	<string name="guide_button_text">开 始 使 用</string>
+	<string name="welcome_content_description">欢迎页面图片</string>
+	<string name="image_default_description">图片</string>
+	<string name="tab1_layout_button_connect">连接</string>
+	<string name="tab1_layout_button_disconnect">断开</string>
+	<string name="tag_load_text_r">读取标签</string>
+	<string name="tag_load_text_w">写入标签</string>
+	<string name="tag_load_from_local">从本机获得数据</string>
+	<string name="tag_load_from_internet">从后台获得数据</string>
+	<string name="tag_load_text1">容器编号：</string>
+	<string name="tag_load_text1_hint">容器编号</string>
+	<string name="tag_load_text2">请输入业务编号：</string>
+	<string name="tag_load_text3">管道系统编号：</string>
+	<string name="tag_load_text2_hint">业务编号</string>
+	<string name="tag_load_text3_hint">管道系统编号</string>
+	<string name="tag_load_button">提交</string>
+	<string name="tag_load_button1">添加新设备</string>
+	<string name="upload_description">描述</string>
+	<string name="upload_time">提交日期</string>
+	<string name="upload_tag">设备编号</string>
+	<string name="upload_mission">任务编号</string>
+	<string name="loadup_button">上传</string>
+	<string name="strInputAccHint">输入帐号</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="opt_remember">记住密码</string>
+    <string name="login">登 录</string>
+	<string name="tab1_layout_connect_reader">连接读写器：</string>
+
+</resources>

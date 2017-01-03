@@ -1,0 +1,5 @@
+include ':slidingMenu_library'
+include ':viewPagerIndicator_library'
+include ':library_zhy_CircleMenu'
+include ':xUtils_library'
+include ':equManSysForScan'

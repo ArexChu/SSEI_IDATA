@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/textViewItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/left_menu_button_background"
+          android:drawableRight="@drawable/left_menu_icon"
+    android:enabled="false"
+    android:padding="13sp"
+    android:text="@string/mydefaultstring"
+    android:textColor="@drawable/left_menu_button_text_color"
+    android:textSize="16sp" >
+
+</TextView>
