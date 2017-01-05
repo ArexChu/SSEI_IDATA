@@ -31,21 +31,7 @@ public class VesselAnnualConclusion extends VesselBaseEntity {
 	public String v_Ann_Explan;//说明
 	public String v_Ann_Test;//检查
 	public String v_Ann_Check;//校对
-
-	@Override
-	public String toString() {
-		return "VesselCheckConclusion{" +
-				"v_Ann_Type='" + v_Ann_Type + '\'' +
-				", v_Ann_Basic='" + v_Ann_Basic + '\'' +
-				", v_Ann_Conclusion='" + v_Ann_Conclusion + '\'' +
-				", v_Ann_Level='" + v_Ann_Level + '\'' +
-				", v_Ann_Pre='" + v_Ann_Pre + '\'' +
-				", v_Ann_Tem='" + v_Ann_Tem + '\'' +
-				", v_Ann_Med='" + v_Ann_Med + '\'' +
-				", v_Ann_Explan='" + v_Ann_Explan + '\'' +
-				", v_Ann_Test='" + v_Ann_Test + '\'' +
-				", v_Ann_Check='" + v_Ann_Check + '\'' +
-				'}';
-	}
+	public String v_next_periodic_check;//
+	public String v_next_annual_check;//
 }
 

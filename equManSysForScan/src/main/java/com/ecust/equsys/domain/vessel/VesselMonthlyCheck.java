@@ -1,16 +1,14 @@
 package com.ecust.equsys.domain.vessel;
 
 
-import com.ecust.equsys.domain.pipe.PipeBaseEntity;
-
-public class VesselMonthlyCheck extends PipeBaseEntity {
+public class VesselMonthlyCheck extends VesselBaseEntity {
 
 	public static VesselMonthlyCheck vesselMonthlyCheck = null;
 
 	public VesselMonthlyCheck() {
 		super();
 		this.db_Description = "容器月度检验";
-		this.method = "updatevesselMonthlyCheck";//上传servlet的方法名称，很重要
+		this.method = "updateVesselMonthlyCheck";//上传servlet的方法名称，很重要
 
 	}
 

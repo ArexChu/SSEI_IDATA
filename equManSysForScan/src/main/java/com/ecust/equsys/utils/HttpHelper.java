@@ -26,8 +26,8 @@ import com.lidroid.xutils.http.client.HttpRequest.HttpMethod;
 public class HttpHelper {
 
 	private static final String BASEADDRESS ="http://192.168.253.1:8080/SSEI/";//将要提交的地方
-	//private static final String BASEADDRESS ="http://172.18.45.1:8080/SSEI/";//将要提交的地方
 	private Activity mActivity;
+
 	private DbHelper dbHelper;
 	//private List<DBList> dbLists;
 	protected int position;

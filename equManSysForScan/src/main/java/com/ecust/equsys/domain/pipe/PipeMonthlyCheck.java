@@ -8,7 +8,7 @@ public class PipeMonthlyCheck extends PipeBaseEntity {
 	public PipeMonthlyCheck() {
 		super();
 		this.db_Description = "管道月度检验";
-		this.method = "updatepipeMonthlyCheck";//上传servlet的方法名称，很重要
+		this.method = "updatePipeMonthlyCheck";//上传servlet的方法名称，很重要
 
 	}
 

@@ -5,7 +5,6 @@ import android.view.View;
 
 import com.ecust.equsys.base.MenuDetailBasePager;
 import com.ecust.equsys.base.MenuDetailUI;
-import com.ecust.equsys.base.impl.pipedetail.data.PipeMonthlyCheckData;
 import com.ecust.equsys.base.impl.vesseldetail.data.VesselMonthlyCheckData;
 
 public class VesselMonthlyCheckPager extends MenuDetailBasePager{

@@ -137,6 +137,7 @@ public class UserPager extends BasePager{
 			if (er == Reader.READER_ERR.MT_OK_ERR) {
 				Toast.makeText(mActivity, "连接成功",
 						Toast.LENGTH_SHORT).show();
+				button_connect.setClickable(false);
 			} else
 				Toast.makeText(mActivity, "连接失败:" +
 						er.toString(), Toast.LENGTH_SHORT).show();
@@ -161,6 +162,7 @@ public class UserPager extends BasePager{
 						 */
 			Toast.makeText(mActivity, "断开读写器，下电",
 					Toast.LENGTH_SHORT).show();
+			button_connect.setClickable(true);
 		}
 
 	}
